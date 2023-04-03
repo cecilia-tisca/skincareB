@@ -1,4 +1,4 @@
-<!-- <div class="wrapper">
+<div class="wrapper">
     <div *ngIf="!loading" class="body">
         <img class="logo" src="../../../assets/img/perfil-del-usuario.png" alt="Login">
         <h1>Login</h1>
@@ -14,30 +14,9 @@
               <div class="d-grid gap-2">
                 <button type="submit" class="btn btn-primary btn-lg" >Ingresar</button>
               </div>
-              <p class="mt-3">¿No estast registrado? <a routerLink="/register">Registar</a></p>
-              <p class="mt-3">¿Olvidaste tu contraseña?<br> <a routerLink="/recuperar-pass">Recuperar contraseña</a></p>
-        </form>
-    </div>
-    <app-spinner *ngIf="loading"></app-spinner>
-</div> -->
-<div class="wrapper">
-    <div  class="body">
-        <img class="logo" src="../../../assets/img/perfil-del-usuario.png" alt="Login">
-        <h1>Login</h1>
-        <form >
-            <div class="form-floating mb-3">
-                <input type="email" formControlName="email" class="form-control" placeholder="name@example.com">
-                <label>Email </label>
-              </div>
-              <div class="form-floating mb-3">
-                <input type="password" formControlName="password" class="form-control" placeholder="Password">
-                <label>Password</label>
-              </div>
-              <div class="d-grid gap-2">
-                <button type="submit" class="btn btn-primary btn-lg" >Ingresar</button>
-              </div>
               <p class="mt-3">¿No estast registrado? <a routerLink="/registrar">Registar</a></p>
               <p class="mt-3">¿Olvidaste tu contraseña?<br> <a routerLink="/recuperar-pass">Recuperar contraseña</a></p>
         </form>
     </div>
+    <!-- <app-spinner *ngIf="loading"></app-spinner> -->
 </div>
