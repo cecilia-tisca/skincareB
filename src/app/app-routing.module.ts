@@ -17,12 +17,13 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'inicio', component: InicioComponent},
   {path: 'presentation', component: PresentationComponent},
-  {path: 'register', component: RegisterComponent},
+  {path: 'registrar', component: RegisterComponent},
   {path: 'recuperar-pass', component: RecuperarPasswordComponent},
   {path: 'verificar-email', component: VerificarEmailComponent},
   {path: 'cremas', component: CremasComponent},
   {path: 'tratamientos', component: TratamientosComponent},
-  {path: 'skincare', component: SkincareComponent}
+  {path: 'skincare', component: SkincareComponent},
+  {path: '**', redirectTo: 'presentation', pathMatch: 'full'}
 ];
 
 @NgModule({
