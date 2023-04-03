@@ -1,10 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
-header {
+/* header {
     background-color: rgba(60, 168, 211, 0.562);
-}
+} */
 
 /* .center {
     margin: auto;
     text-align: center;
     image-orientation:;
 } */
+
+.card-img-top {
+    /* width: 100%;
+max-width: var(--max);
+height: calc(var(--max));
+object-fit: cover; */
+}
+
+/* .card {
+    width: var(--max);
+} */
+
+.marca {
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(208, 209, 209, 0.842);
+}
+
+.logo {
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.body {
+    width: 115%;
+    max-width: 330px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.form-floating {
+    text-align: start;
+}
+
+.errorLabel {
+    margin-left: 5px;
+}
+
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
