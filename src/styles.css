@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+header {
+    background-color: rgba(60, 168, 211, 0.562);
+}
+
+/* .center {
+    margin: auto;
+    text-align: center;
+    image-orientation:;
+} */
