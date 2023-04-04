@@ -6,6 +6,7 @@ import { LoginComponent } from './components/login/login.component';
 import { PresentationComponent } from './components/presentation/presentation.component';
 import { RecuperarPasswordComponent } from './components/recuperar-password/recuperar-password.component';
 import { RegisterComponent } from './components/register/register.component';
+// import { RegisterComponent } from './components/register/register.component';
 import { SkincareComponent } from './components/skincare/skincare.component';
 import { TratamientosComponent } from './components/tratamientos/tratamientos.component';
 import { VerificarEmailComponent } from './components/verificar-email/verificar-email.component';
